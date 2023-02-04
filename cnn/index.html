@@ -84,7 +84,7 @@
         </div>
         <div class="footer">
             <div class="title">
-                Coppyright &copy; {(new Date().getFullYear())}
+                Coppyright &copy; 2023
             </div>
         </div>
     </div>
@@ -96,6 +96,12 @@
             humburger.classList.toggle("active")
             navMenu.classList.toggle("active")
         })
+
+        document.querySelectorAll(".sidebar").forEach(n => n.
+            addEventListener("click", () => {
+                humburger.classList.remove("active")
+                navMenu.classList.remove("active")
+            }))
 
     </script>
 </body>
