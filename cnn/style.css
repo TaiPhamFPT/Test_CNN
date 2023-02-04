@@ -172,3 +172,22 @@ a {
     }
 
 }
+
+@media only screen and (max-width: 320px) {
+    .humburger {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .content .logo img {
+        width: 150px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+}
